@@ -16,6 +16,6 @@ beforeEach(() => {
 
 test('Simple test to Native JS', () => {
     users['1'].name = 'Oleg'
-    expect(users['1'].name).toBe('Ole')
+    expect(users['1'].name).toBe('Oleg')
 
 })
